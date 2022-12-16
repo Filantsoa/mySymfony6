@@ -17,7 +17,8 @@
         "dev-server": "encore dev-server",
         "dev": "encore dev",
         "watch": "encore dev --watch",
-        "build": "encore production --progress"
+        "build": "encore production --progress",
+        "sass": "sass --watch public/front/sass/styleFront.scss:public/front/css/styleFront.css"
     },
     "dependencies": {
         "bootstrap": "^5.2.3"
