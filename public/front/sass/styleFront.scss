@@ -48,7 +48,20 @@
                             border-style: solid;
                         }
                         &:-internal-autofill-selected {
-
+                            background-color: internal light dark(#e5e5e5) !important;
+                        }
+                    }
+                    button {
+                        width: 100%;
+                        height: 3em;
+                        background-color: cornflowerblue;
+                        border: antiquewhite;
+                        margin-top: 1em;
+                        font-size: 1em;
+                        font-weight: 500;
+                        &:hover {
+                            background-color: rgba(100, 148, 237, 0.836);
+                        }
                     }
                 }
             }
